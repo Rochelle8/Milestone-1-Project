@@ -1,31 +1,135 @@
-@import url('https://fonts.googleapis.com/css2?family=Romanesco: 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000');
+@import url('https://fonts.googleapis.com/css2?family=Damion&family=Roboto&family=Romanesco&display=swap');
 
-/*-------------------------------------------------Colours*/
-heading{
-    background-color: purple;
+/*----------------------------------------------------------------Colours*/
+header{
+    background-color: #AD86BC;
 }
 
-/*-------------------------------------------------Heading*/
+nav a{
+    color: black;
+    font-size: 25px;
+}
+
+nav a:hover{
+    color: white;
+}
+
+button{
+    color: white;
+    background-color: black;
+}
+
+.projects{
+    background-color: #AD86BC;
+}
+
+.workwithme{
+    background-color: #828282;
+}
+
+footer{
+    background-color: #AD86BC;
+}
+
+.cv{
+    color: black;
+}
+
+.cv:hover{
+    color: white;
+}
+
+/*----------------------------------------------------------------Heading*/
+heading{
+    flex-direction: row;
+}
+
+
 h1{
     font-family: "Romanesco", sans-serif;
+    font-size: 70px;
+    width: 50%;
 }
 
-.menu{
+.navbar{
+    font-family: "Romanesco", sans-serif;
+    font-size: 30px;
+    width: 50%;
+    text-align: right;
+}
 
+nav a{
+    text-align: bottom-right;
+}
+
+nav a:hover{
+    text-decoration: none;
+}
+
+.container{
+    position: relative;
+    margin: 0;
+    width: 100%;
 }
 
 img{
-
+    width: 100%;
 }
 
-h2{
+.jobtitle{
+    background-image: url("../home-office.jpg");
+    text-align: center;
+    color: white;
+    font-family: "Romanesco", sans-serif;
+    font-size: 50px;
+}
+
+
+/*---------------------------------------------------------------Section*/
+h2, h3{
+    font-family: "Romanesco", sans-serif;
+    text-decoration: underline;
+    font-size: 50px;
+}
+
+.profile-picture img{
+    padding: 50px;
+    margin-left: 75px;
+    border-radius: 50%;
+    width: 35%;
+}
+
+.aboutme h2{
+    text-align: center;
+}
+
+
+/*---------------------------------Key Skills*/
+
+
+
+
+
+/*---------------------------------Projects*/
+.projects h2{
+    text-align: center;
+}
+
+
+
+/*--------------------------------Work With Me*/
+input{
     
 }
-/*------------------------------------------------------Section*/
+
+/*--------------------------------------------------------------------Footer*/
+
+
+
+/*--------------------------------------------------------------------MediaQueries
 
 
 
 
 
 
-/*-------------------------------------------------------Footer*/

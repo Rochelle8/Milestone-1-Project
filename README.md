@@ -1,3 +1,5 @@
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Rochelle8/Milestone-1-Project)
+
 This project is a Resume for myself as a Full Stack Web Developer and Digital Marketer.
 
 I didn't have enough time to add media queries to my design to make it mobile device responsive due to having issues with my css and html file responding to each other.

@@ -11,7 +11,7 @@
 </head>
 <body>
     <header>
-        <div class="container-fluid">
+        <div class="container container-fluid">
             <div class="heading row">
                 <h1>Rochelle Campbell</h1>
                 <nav class="navbar navbar-collapse">
@@ -20,27 +20,36 @@
                     <a href="#projects">Projects</a>
                     <a href="#workwithme">Work With Me</a>
                     <a href="#contact">Contact Me</a>
-                    <a href="#">Download CV</a>
+                    <a href="asesets/images/Rochelle Campbell.CV.docx" download>Download CV</a>
                 </nav> 
             </div>
         </div>
     </header>
 
     <section>
-         <div class="jobtitle">
-            <h2>Full Stack Web Developer & Digital Marketer</h2>
-         </div>
-        <div id="aboutme" class="container">
-            <div>
-                 <h2>About Me</h2>
+        <div class="container col-sm-12 col-md-12 col-lg-12">
+            <div class="jobtitle">
+                <h2>Full Stack Web Developer & Digital Marketer</h2>
             </div>
+        </div>
+    </section>
+    <section>
+        <div id="aboutme" class="container container-fluid col-sm-12 col-md-12 col-lg-12">
+                <div class="row">
+                    <h2>About Me</h2>
+                </div>
+            </div>
+
+        <div class="aboutmebox container container-fluid col-sm-12 col-md-12 col-lg-12">
             <div class="row">
-                <div class="profile-picture">
-                    <img src="assets/images/rochelle-picture.jpg" alt="profilepicture"/>
+                <div class="profile-picture col">
+                    <img src="assets/images/rochelle-picture.jpg" alt="profile-picture"/>
                 </div>
                 <div class="qualifications">
                     <ul>
+                        <br>
                         <li>BSc (Hons) Psychology</li>
+                        <br>
                         <li>Level 7 Digital Marketing</li>
                             <ul>
                                 <li>Digital Marketing Certification</li>
@@ -48,103 +57,143 @@
                                 <li>Google Analytics Certification</li>
                                 <li>Social Media Certification</li>
                             </ul>
+                        <br>
                         <li>Level 7 Diploma in Full Stack Web Dvelopment</li>
                     </ul>
                     <br>
-                    <button type="button" class="btn btn-primary" data-toggle="collapse" data-targen="#moreinfo">
+                    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#moredetails" aria-expanded="false" aria-controls="moredetails">
                         More Details...
                     </button>
-                    <div id="moreinfo" class="collapse">
-                        **Write more information about myself here**
+                     <div id="moredetails" class="collapse">
+                        <div class="card card-body">
+                            **Write more information about myself here**
+                        </div>
                     </div>
-
-                </div>
-            </div>
-
-        <div id="keyskills" class=container container-fluid">
-            <h2>Key Skills:</h2>
-            <div class="row row-table">
-                <div class="html">
-                    <i class="fa fa-html5" aria="hidden"></i> 
-                    HTML 
-                </div>
-                <div class="css">
-                    <i class="fa fa-css3-alt" aria="hidden"></i>
-                    CSS 
-                 </div>
-                <div class="javascript">
-                    <i class="fa fa-js" aria="hidden"></i>
-                     Javascript 
-                </div>
-                <div class="seo"> 
-                    <i class="fa fa-chart-line" aria="hidden"></i>
-                    SEO 
-                </div>
-                <div class="ppc">
-                    <i class="fas fa-mouse-pointer"></i>
-                     PPC 
-                </div>
-                <div class= "spss"> 
-                    <i class="fal fa-analytics"></i>
-                    SPSS 
                 </div>
             </div>
         </div>
+    </section>
+    <section>
+        <div id="keyskills" class="container container-fluid col-sm-4 col-md-12">
+            <div>
+                <h2 class="keyskillstitle">Key Skills:</h2>
+            </div>
+            <div class="col-sm-8 col-md-6 col-lg-6 col-12">
+                <div class="row">
+                    <div class="html">
+                        <img src="/images/HTML.jpg" alt="HTML5"/>
+                            <b>HTML </b>
+                            90%
+                    </div>
+                    <div class="css">
+                        <img src="images/CSS.png" alt="CSS3"/>
+                        <b>CSS</b>
+                        75%
+                    </div>
+                    <div class="javascript">
+                        <img src="images/javascript.png" alt="Javascript"/>
+                        <b>Javascript</b> 
+                        0%
+                    </div>
+                    <div class="seo"> 
+                        <img src="images/SEO.webp" alt="SEO"/>
+                        <b>SEO</b>
+                        80%
+                    </div>
+                    <div class="ppc">
+                        <img src="images/PPC.png" alt="PPC"/>
+                        <b>PPC</b>
+                        60%
+                    </div>
+                    <div class= "spss"> 
+                        <img src="images/SPSS.jpg" alt="SPSS"/>
+                        <b>SPSS</b>
+                        80%
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <div id="projects">
-            <h2>Projects</h2>
+    <section>
+        <div id="projects" class="container-fluid col-sm-6 col-md-12 col-lg-12">
+            <div>
+                <h2>Projects</h2>
+            </div>
             <div class="row">
                 <div class="project1">
-                Project 1
+                    <h3>Project 1</h3>
+                    <img src="assets/images/comingsoon.jpg"/>
                 </div>
                 <div class="project2">
-                    Project 2
+                    <h3>Project 2</h3>
+                    <img src="assets/images/comingsoon.jpg"/>
                 </div>
-                <div class="video">
-                    Youtube Video
+                <div class="video text-center">
+                    <a href="https://www.youtube.com/" target="_blank"><img src="assets/images/youtube_logo_dark.jpg"/></a>
+                    <p>Click for Youtube Video!</p>
                 </div>
             
             </div>
         </div>
-        <div id="workwithme">
-                <h2>Work With Me...</h2>
-                <form action="" method="post" class="collab">
-                    <input type="text" id="name" placeholder="Full Name" required></input>
+    </section>
+    <section>
+        <div id="workwithme" class="container-fluid col-sm-6 col-md-12 col-lg-12">
+            <h2>Work With Me...</h2>
+            <div class="div-wrapper d-flex justify-content-center align-items-center">
+                <form action="" method="post" class="collab div-to-align col-sm-6 col-md-12 col-lg-12">
+                    <div class="col text-center">
+                        <label for="#name"><b>Full Name</b></label>
+                        <input type="text" id="name" placeholder="Full Name" required></input>
+                    </div>
+                    <div class="col text-center">
+                        <label for="#business"><b>Business Name</b></label>
+                        <input type="text" id="business" optional></input>
+                    </div>
+                    <div class="col text-center">
+                        <label for="#email"><b>Email Address</b></label>
+                        <input type="email" id="email" placeholder="Email Address" required></input>
+                    </div>
                     <br>
-                    <input type="email" id="email" placeholder="Email Address" required>
-                    </input>
+                    <div class="col text-center form-control-lg">
+                        <label for="#projectdetails"><b>Project Details</b></label>
+                        <input type="text" id="projectdetails" placeholder="Project Details" required></input>
+                    </div> 
                     <br>
-                    <br>
-                    <input type="text" id="projectdetails" placeholder="Project Details" required>
-                    </input>
-                    <br>
-                    <br>
-                    <button>Submit</button>
+                    <div class="col text-center">
+                        <button>Submit!</button>
+                    </div>
+                    
                 </form>
-         </div>
-
-        <div id="contact">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="contact" class="container-fluid col-sm-12 col-md-12 col-lg-12">
             <h3>Contact Details</h3>
             <div class="contactDetails">
                 <ul>
-                    <li>rochelle.campbell8@outlook.com</li>
-                    <li>07437067786</li>
-                    <li>London, UK</li>
+                    <li><em>rochelle.campbell8@outlook.com</em></li>
+                    <li><em>07437067786</em></li>
+                    <li><em>London, UK</em></li>
                 </ul>
             </div>
         </div>
-        <div class="map">
+        <div class="container-fluid col-sm-12 col-md-12 col-lg-12">
                 <img src="assets/images/mapoflondon.png" alt="London Map"/>
         </div>
     </section>
+
     <footer>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm4">
-                    <h5>LinkedIn</h5>
-                </div>
-                <div class="col-sm4">
-                    <h5>Download CV</h5>
+                <div class="col-sm-6">
+                    <div class="socials">
+                        <a href="www.linkedin.com/in/rochelle-campbell-7b493b107"><img src="assets/images/linkedin-logo.png" alt="linkedIn Logo"/></a>
+                    </div>
+                    <div class="download">
+                        <a href="assets/images/Rochelle Campbell.CV.docx " download>Download CV</a>
+                    </div>
                 </div>
             </div>
         </div>

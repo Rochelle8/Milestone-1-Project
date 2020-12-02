@@ -24,6 +24,11 @@ button{
     padding: 30px;
 }
 
+.qualifications button{
+    background-color: #AD86BC;
+    border: 1px solid black;
+}
+
 #keyskills h2{
     color: #AD86BC;
 }
@@ -59,7 +64,6 @@ button{
 heading{
     flex-direction: row;
 }
-
 
 h1{
     font-family: "Romanesco", sans-serif;
@@ -107,11 +111,7 @@ img{
     font-size: 40px;
     
 }
-
-@media screen 
 /*---------------------------------------------------------------Section*/
-
-
 h2, h3{
     font-family: "Romanesco", sans-serif;
     text-decoration: underline;
@@ -154,26 +154,91 @@ ul{
     border: 1px solid black;
     position: relative;
     margin-right: 75px;
-
-.btn-primary{
-    margin-left: 130px;
-    background-color: #AD86BC;
-    border-color: black;
 }
 
+.qualifications li{
+   margin-left: -30px;
+}
 
-
-
-
+.qualifications button{
+    margin-left: 120px;
+}
 
 /*---------------------------------Key Skills*/
+#keyskills{
+    width: 100%;
+    height: 750px;
+}
+
 #keyskills .html, .css, .javascript, .seo, .ppc, .spss{
-    width: 110px;
-    height: 350px;
-    margin-top: 50px;
-    padding: 50px;
+    width: 400px;
+    height: 150px;
+    margin-top: 20px;
+    padding: 20px;
     position: relative;
     border: 1px solid black;
+}
+
+.keyskills-grid{
+    margin: 0;
+}
+
+.html{
+    margin-left: 175px;
+}
+.html img{
+    width: 200px;
+    height: 75px;
+    margin-left: 75px;
+}
+
+.css{
+    margin-left: 185px;
+}
+.css img{
+    width: 200px;
+    height: 75px;
+    margin-left: 75px;
+}
+
+.javascript{
+    margin-left: 175px;
+}
+
+.javascript img{
+    width: 200px;
+    height: 75px;
+    margin-left: 75px;
+}
+
+.seo{
+    margin-left: 185px;
+}
+
+.seo img{
+    width: 200px;
+    height: 75px;
+    margin-left: 75px;
+}
+
+.ppc{
+    margin-left: 175px;
+}
+
+.ppc img{
+    width: 200px;
+    height: 75px;
+    margin-left: 75px;
+}
+
+.spss{
+    margin-left: 185px;
+}
+
+.spss img{
+    margin-left: 75px;
+    width: 200px;
+    height: 75px;
 }
 
 /*---------------------------------Projects*/
@@ -186,23 +251,24 @@ ul{
 }
 
 .project1 img{
+    margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 20px;
     border-radius: 50%;
-    display: block;
 }
 
 .project2 img{
     margin-left: 0px;
     margin-block-end: 20px;
     border-radius: 50%;
-    display: block;
 }
 
 .video img{
     width: 50%;
-    height: 100px;
+    height: 150px;
     border: 1px solid black;
+    margin-left: 100px;
+    margin-top: 50px;
 }
 
 
@@ -259,8 +325,209 @@ footer{
     border: 1px solid black;
 }
 
+/*-------------------------------Media Queries*/
+@media screen and (max-width: 1024px){
+    .profile-picture{
+        width: 450px;
+        height: 150px;
+        margin-left: -50px;
+    }
+
+    .qualifications{
+        margin-right: 25px;
+        padding: 5px;
+    }
+
+    #keyskills .html, .css, .javascript, .seo, .ppc, .spss{
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+    padding: 10px;
+    position: relative;
+    border: 1px solid black;
+    }
+    
+    .html{
+        width: 250px;
+        margin-left: 25px;
+    }
+
+    .html img{
+        width: 100px;
+        height: 75px;
+        margin-left: 25px;
+    }
+
+    .css{
+        margin-left: 50px;
+    }
+    .css img{
+        width: 100px;
+        height: 45px;
+        margin-left: 35px;
+    }
+
+    .javascript{
+        margin-left: 50px;
+    }
+
+    .javascript img{
+        width: 100px;
+        height: 45px;
+        margin-left: 35px;
+    }
+
+    .seo{
+        width: 200px;
+        margin-left: 25px;
+    }
+
+    .seo img{
+        width: 100px;
+        height: 75px;
+        margin-left: 25px;
+    }
+
+    .ppc{
+        margin-left: 50px;
+    }
+
+    .ppc img{
+        width: 100px;
+        height: 45px;
+        margin-left: 35px;
+    }
+
+    .spss{
+        margin-left: 50px;
+    }
+
+    .spss img{
+        width: 100px;
+        height: 45px;
+        margin-left: 35px;
+    }
+
+    .video{
+        margin-left: -70px;
+    }
+}
 
 
+
+
+@media screen and (max-width: 480px){
+
+    .profile-picture{
+        width: 500px;
+        margin-left: -75px;
+    }
+
+    .qualifications{
+        width: 300px;
+        margin-left: 32px;
+    }
+
+     #keyskills .html, .css, .javascript, .seo, .ppc, .spss{
+    width: 100px;
+    height: 150px;
+    margin-top: 10px;
+    padding: 10px;
+    position: relative;
+    border: 1px solid black;
+    }
+    
+    .html{
+        margin-left: 15px;
+        width: 150px;
+    }
+
+    .html img{
+        width: 100px;
+        height: 75px;
+        margin-left: 25px;
+    }
+
+    .css{
+        width: 150px;
+        margin-left: 25px;
+    }
+    .css img{
+        width: 100px;
+        height: 45px;
+        margin-left: 15px;
+    }
+
+    .javascript{
+        width: 150px;
+        margin-left: 15px;
+    }
+
+    .javascript img{
+        width: 100px;
+        height: 45px;
+        margin-left: 15px;
+    }
+
+    .seo{
+        width: 150px;
+        margin-left: 15px;
+    }
+
+    .seo img{
+        width: 100px;
+        height: 75px;
+        margin-left: 25px;
+    }
+
+    .ppc{
+        width: 150px;
+        margin-left: 15px;
+    }
+
+    .ppc img{
+        width: 100px;
+        height: 45px;
+        margin-left: 35px;
+    }
+
+    .spss{
+        width: 150px;
+        margin-left: 15px;
+    }
+
+    .spss img{
+        width: 100px;
+        height: 45px;
+        margin-left: 35px;
+    }
+
+    .project1 img, .project2 img{
+        width: 75%;
+        border: 1px solid black;
+        border-radius: 50%;
+        margin-left: 50px;
+    }
+
+    .video p{
+        margin-left: 100px;
+    }
+    .form{
+
+    }
+
+    .socials{
+        height: 50px;
+    }
+
+    .socials h5{
+        font-size: 50px;    
+    }
+
+    .download{
+        height: 50px;
+    }
+}
 
 
 
